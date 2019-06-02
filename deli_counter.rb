@@ -23,7 +23,7 @@ def take_a_number(cur_line, name)
   end
 end
 
-def now_serving()
+def now_serving(cur_line)
   
 end
 
