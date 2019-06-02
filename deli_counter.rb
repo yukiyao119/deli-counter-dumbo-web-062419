@@ -13,7 +13,6 @@ def line(cur_line)
   end
 end
 
-
 def take_a_number(cur_line, name)
   if cur_line.size == 0 
     puts "Welcome, #{name}. You are number 1 in line."
@@ -27,7 +26,6 @@ end
 def now_serving()
   
 end
-
 
 #   describe "#now_serving" do
 #     context "there are no people in line" do
