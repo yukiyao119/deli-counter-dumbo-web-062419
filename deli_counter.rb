@@ -31,15 +31,3 @@ def now_serving(cur_line)
     cur_line.shift
   end
 end
-
-
-#     context "there are people in line" do
-#       it "should serve the first person in line and remove them from the queue" do
-#         expect($stdout).to receive(:puts).with("Currently serving Logan.")
-#         now_serving(other_deli)
-#         expect(other_deli).to eq(%w(Avi Spencer))
-#       end
-#     end
-#   end
-
-# end
