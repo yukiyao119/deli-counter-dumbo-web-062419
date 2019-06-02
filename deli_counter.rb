@@ -29,6 +29,7 @@ def now_serving(cur_line)
   else
     puts "Currently serving #{cur_line[0]}."
     cur_line.shift
+  end
 end
 
 
