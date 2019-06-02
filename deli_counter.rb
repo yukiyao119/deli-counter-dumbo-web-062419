@@ -24,16 +24,13 @@ def take_a_number(cur_line, name)
 end
 
 def now_serving(cur_line)
-  
+  if cur_line.size == 0 
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{cur_line[0]}."
+    cur_line.shift
 end
 
-#   describe "#now_serving" do
-#     context "there are no people in line" do
-#       it "should say that the line is empty" do
-#         expect($stdout).to receive(:puts).with("There is nobody waiting to be served!")
-#         now_serving(katz_deli)
-#       end
-#     end
 
 #     context "there are people in line" do
 #       it "should serve the first person in line and remove them from the queue" do
